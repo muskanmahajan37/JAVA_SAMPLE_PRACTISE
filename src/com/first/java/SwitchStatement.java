@@ -10,9 +10,9 @@ public class SwitchStatement {
             case 2:
                 System.out.println(2);
                 break;
-                default:
-                    System.out.println("not found");
-                    break;
+           default:
+                System.out.println("not found");
+                break;
         }
     }
 }
