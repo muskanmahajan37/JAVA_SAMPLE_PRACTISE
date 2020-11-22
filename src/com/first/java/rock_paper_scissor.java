@@ -26,6 +26,8 @@ public class rock_paper_scissor {
                 }
                 else{
                     System.out.println("user input is not valid terminating programme");
+                    player_score=-1;
+                    system_score=-1;
                     break;
                 }
 
@@ -73,15 +75,14 @@ public class rock_paper_scissor {
             System.out.println("++++++++++++++++++++++++++++++++++");
             i++;
            }
-
-        if (system_score>player_score)  {
-            System.out.println("!!!!!!system is the winner");
-        }
-        else if (system_score<player_score) {
-            System.out.println("!!!!!!player is the winner");
-        }
-        else{
-            System.out.println("!!!!!!match is a tie");
+        if (system_score!= -1 && player_score!=-1) {
+            if (system_score > player_score) {
+                System.out.println("!!!!!!system is the winner");
+            } else if (system_score < player_score) {
+                System.out.println("!!!!!!player is the winner");
+            } else {
+                System.out.println("!!!!!!match is a tie");
+            }
         }
     }
 }
