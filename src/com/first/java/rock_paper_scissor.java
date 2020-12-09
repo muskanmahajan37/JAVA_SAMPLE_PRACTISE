@@ -1,4 +1,5 @@
 package com.first.java;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -78,8 +79,12 @@ public class rock_paper_scissor {
         if (system_score!= -1 && player_score!=-1) {
             if (system_score > player_score) {
                 System.out.println("!!!!!!system is the winner");
+                System.out.println("player score is "+player_score);
+                System.out.println("System score is "+system_score);
             } else if (system_score < player_score) {
                 System.out.println("!!!!!!player is the winner");
+                System.out.println("player score is "+player_score);
+                System.out.println("System score is "+system_score);
             } else {
                 System.out.println("!!!!!!match is a tie");
             }

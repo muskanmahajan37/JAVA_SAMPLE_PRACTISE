@@ -17,6 +17,5 @@ public class BitWiseOperator {
         System.out.println(d);
         System.out.println(e);
         System.out.println(f);
-        System.out.println();
     }
 }
