@@ -5,6 +5,7 @@ public class minFind {
 
         int c = maxFinding(1,2);
         System.out.println(c);
+        System.out.println(c);
     }
 
     public static int maxFinding(int  a,int  b){
@@ -16,5 +17,6 @@ public class minFind {
             min=a;
         }
         return min;
+
     }
 }
