@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class strings {
     public static void main(String[] args) {
         //method to assign a string
-        String name=new String("rohan");
+        String name= "rohan";
         //another way to assign a string
         String names = "man";
         System.out.println(name);
